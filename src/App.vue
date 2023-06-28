@@ -1,5 +1,22 @@
-<script></script>
+<script>
+import AppTitle from './AppTitle.vue';
+import AppHero from './AppHero.vue';
+export default {
+  data() {
+    return {
 
-<template></template>
+    }
+  },
+  components: {
+    AppHero,
+    AppTitle,
+  }
+}
+</script>
+
+<template>
+  <AppTitle />
+  <AppHero />
+</template>
 
 <style scoped></style>
