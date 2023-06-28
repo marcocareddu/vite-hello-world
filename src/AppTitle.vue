@@ -12,4 +12,9 @@ export default {
     <h1>{{ title }}</h1>
 </template>
 
-<style scoped></style>
+<style scoped>
+h1 {
+    color: chocolate;
+    margin: 10px 0px;
+}
+</style>
