@@ -2,7 +2,6 @@
 export default {
     data() {
         return {
-            picture: "https://picsum.photos/600/300",
         }
     }
 }
